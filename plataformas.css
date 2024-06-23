@@ -151,7 +151,7 @@ footer a {
 
 @media (max-width: 480px) {
     header h1 {
-        font-size: 1.5em; /* Reducir aún más el tamaño del título en móviles pequeños */
+        font-size: 2em; /* Reducir aún más el tamaño del título en móviles pequeños */
     }
 
     main a {
@@ -159,8 +159,8 @@ footer a {
     }
 
     .card {
-        width: 100px; /* Reducir aún más el tamaño de las tarjetas en móviles pequeños */
-        height: 150px;
+        width: 150px; /* Reducir aún más el tamaño de las tarjetas en móviles pequeños */
+        height: 200px;
     }
 
     .card h3 {
