@@ -127,3 +127,44 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; /* Reducir tamaño del título en móviles */
+    }
+
+    main a {
+        margin: 0 5px;
+    }
+
+    .card {
+        width: 150px; /* Reducir tamaño de las tarjetas en móviles */
+        height: 200px;
+    }
+
+    .card h3 {
+        height: 30px; /* Ajustar tamaño del título de la tarjeta en móviles */
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em; /* Reducir aún más el tamaño del título en móviles pequeños */
+    }
+
+    main a {
+        margin: 0 5px;
+    }
+
+    .card {
+        width: 100px; /* Reducir aún más el tamaño de las tarjetas en móviles pequeños */
+        height: 150px;
+    }
+
+    .card h3 {
+        height: 25px; /* Ajustar tamaño del título de la tarjeta en móviles pequeños */
+        line-height: 25px;
+    }
+}
