@@ -47,18 +47,6 @@ header h1 {
     transition: text-shadow 0.05s;
 }
 
-header h1:hover {
-    color: #fff;
-    text-shadow: 
-        0 0 15px #A3D8FF, 
-        0 0 20px #4a5bf5, 
-        0 0 40px #4a5bf5, 
-        0 0 80px #613eff, 
-        0 0 160px #613eff, 
-        0 0 240px #613eff;
-    cursor: pointer;
-}
-
 main {
     flex: 1;
     display: flex;
