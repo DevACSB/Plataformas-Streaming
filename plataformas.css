@@ -20,11 +20,20 @@ header, footer {
 }
 
 header {
+    display: flex;
     font-size: 1rem;
     padding-top: 2em;
 }
 
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 2rem;
+    cursor: pointer;
+}
+
 header h1 {
+    width: 100%;
     color: #fff;
     text-align: center;
     font-size: 3em;
