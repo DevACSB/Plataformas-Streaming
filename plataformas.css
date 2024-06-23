@@ -151,15 +151,22 @@ footer a {
 
 @media (max-width: 480px) {
 
+    header {
+        padding-top: 1em;
+    }
+
     header img {
         width: 30px;
         height: 30px;
         margin: 0 0 0 1rem;
-        cursor: pointer;
     }
 
     header h1 {
         font-size: 2em; /* Reducir aún más el tamaño del título en móviles pequeños */
+    }
+
+    main {
+        align-content: center;
     }
 
     main a {
