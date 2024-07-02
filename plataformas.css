@@ -117,6 +117,40 @@ footer a {
     text-decoration: none;
 }
 
+footer p:hover a {
+    text-shadow: 
+    0 0 5px #A3D8FF, 
+    0 0 10px #4a5bf5, 
+    0 0 20px #4a5bf5;
+}
+
+footer p:hover b {
+    color: red;
+    text-shadow: 
+    0 0 5px #ffa3a3, 
+    0 0 10px #f54a4a, 
+    0 0 20px #f54a4a;
+}
+
+/* Media Query para Portátiles */
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+    /* Estilos específicos para portátiles */
+    main {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: .5em;
+        padding: .5em;
+    }
+
+    .card {
+        width: 155px; /* Reducir tamaño de las tarjetas en móviles */
+        height: 250px;
+    }
+}
+
 /* Estilos específicos para dispositivos móviles */
 @media (max-width: 768px) {
     header h1 {
