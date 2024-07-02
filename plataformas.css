@@ -9,7 +9,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* background: url(assets/teatro.jpg) no-repeat center center fixed; */
     background-color: #131635;
     background-size: cover;
 }
@@ -29,7 +28,7 @@ header {
 header img {
     width: 50px;
     height: 50px;
-    margin: 0 0 0 2rem;
+    margin-left: 2rem;
     cursor: pointer;
 }
 
@@ -77,10 +76,10 @@ main a {
 .card:hover {
     border: 3px solid #A3D8FF;
     box-shadow: 
-    0 0 10px #4A9FF5, 
-    0 0 20px #4A9FF5, 
-    0 0 30px #3E64FF, 
-    0 0 40px #3E64FF;
+        0 0 10px #4A9FF5, 
+        0 0 20px #4A9FF5, 
+        0 0 30px #3E64FF, 
+        0 0 40px #3E64FF;
 }
 
 .card img {
@@ -119,42 +118,38 @@ footer a {
 
 footer p:hover a {
     text-shadow: 
-    0 0 5px #A3D8FF, 
-    0 0 10px #4a5bf5, 
-    0 0 20px #4a5bf5;
+        0 0 5px #A3D8FF, 
+        0 0 10px #4a5bf5, 
+        0 0 20px #4a5bf5;
 }
 
 footer p:hover b {
     color: red;
     text-shadow: 
-    0 0 5px #ffa3a3, 
-    0 0 10px #f54a4a, 
-    0 0 20px #f54a4a;
+        0 0 5px #ffa3a3, 
+        0 0 10px #f54a4a, 
+        0 0 20px #f54a4a;
 }
 
-/* Media Query para Portátiles */
-@media screen and (min-width: 768px) and (max-width: 1250px) {
-    /* Estilos específicos para portátiles */
+/* Media Queries */
+
+/* Portátiles */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
     main {
-        flex: 1;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: .5em;
-        padding: .5em;
+        gap: 0.5em;
+        padding: 0.5em;
     }
 
     .card {
-        width: 155px; /* Reducir tamaño de las tarjetas en móviles */
+        width: 155px;
         height: 250px;
     }
 }
 
-/* Estilos específicos para dispositivos móviles */
+/* Móviles */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2em; /* Reducir tamaño del título en móviles */
+        font-size: 2em;
     }
 
     main a {
@@ -162,18 +157,18 @@ footer p:hover b {
     }
 
     .card {
-        width: 150px; /* Reducir tamaño de las tarjetas en móviles */
+        width: 150px;
         height: 200px;
     }
 
     .card h3 {
-        height: 30px; /* Ajustar tamaño del título de la tarjeta en móviles */
+        height: 30px;
         line-height: 30px;
     }
 }
 
+/* Móviles pequeños */
 @media (max-width: 480px) {
-
     header {
         padding-top: 1em;
     }
@@ -181,11 +176,11 @@ footer p:hover b {
     header img {
         width: 30px;
         height: 30px;
-        margin: 0 0 0 1rem;
+        margin-left: 1rem;
     }
 
     header h1 {
-        font-size: 2em; /* Reducir aún más el tamaño del título en móviles pequeños */
+        font-size: 2em;
     }
 
     main {
@@ -197,12 +192,12 @@ footer p:hover b {
     }
 
     .card {
-        width: 150px; /* Reducir aún más el tamaño de las tarjetas en móviles pequeños */
+        width: 150px;
         height: 200px;
     }
 
     .card h3 {
-        height: 25px; /* Ajustar tamaño del título de la tarjeta en móviles pequeños */
+        height: 25px;
         line-height: 25px;
     }
 }
