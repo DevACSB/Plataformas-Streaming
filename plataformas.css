@@ -9,7 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url(assets/teatro.jpg) no-repeat center center fixed;
+    /* background: url(assets/teatro.jpg) no-repeat center center fixed; */
+    background-color: #131635;
     background-size: cover;
 }
 
